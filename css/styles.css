@@ -1,1 +1,133 @@
+* {
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f3ec;
+    background-image: url("../img/backgroud\ generico-pagina.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #2b2b2b;
+    margin: 0;
+}
+
+header {
+    background-color: #f5e6d36b;
+    color: #333333;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #333333;
+    text-decoration: none;
+    margin: 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #8d840d;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+.boton,
+button {
+    background-color: #ff914d;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.infoCat {
+    background-color: #fd540094;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    }
+
+.boton:hover,
+button:hover {
+    background-color: #e8752f;
+}
+
+.tarjeta {
+    background-color: #fff7ed;
+    border: 1px solid #e0c7a8;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+details {
+    background-color: #fff7ed;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 8px;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+    border-color: #ff914d;
+}
+
+footer {
+    background-color: #3b3b3b;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+}

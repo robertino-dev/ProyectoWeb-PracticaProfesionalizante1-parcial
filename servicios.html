@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Integrante 3">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Manada Pet Shop | Servicios</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
 
+<header>
+    <h1>La Manada Petshop</h1>
+    <p>Servicios para el cuidado de tus mascotas</p>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Nuestros servicios</h2>
+        <p>En esta sección se muestran servicios ficticios del petshop.</p>
+
+        <details>
+            <summary>Baño para perros</summary>
+            <p>Servicio de baño con productos adecuados para cada tipo de pelaje.</p>
+        </details>
+
+        <details>
+            <summary>Peluquería canina</summary>
+            <p>Corte higiénico, corte de pelo y cepillado general.</p>
+        </details>
+
+        <details>
+            <summary>Asesoramiento en alimentación</summary>
+            <p>Orientación básica para elegir el alimento adecuado según tamaño y edad.</p>
+        </details>
+
+        <button commandfor="dialogo-servicios" command="show-modal">Ver aviso</button>
+
+        <dialog id="dialogo-servicios">
+            <p>Los servicios son ficticios y forman parte de un prototipo académico.</p>
+            <button commandfor="dialogo-servicios" command="close">Cerrar</button>
+        </dialog>
+    </section>
+</main>
+
+<footer>
+    <p>Proyecto académico - Práctica Profesionalizante I - 2026</p>
+</footer>
+
+</body>
+</html>

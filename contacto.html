@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Integrante 4">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Manada Petshop | Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <h1>La Manada Petshop</h1>
+    <p>Contactanos</p>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Formulario de contacto</h2>
+        <p>Completá el formulario para realizar una consulta.</p>
+
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required minlength="3">
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mascota">Tipo de mascota:</label>
+            <select id="mascota" name="mascota" required>
+                <option value="">Seleccione una opción</option>
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar consulta</button>
+        </form>
+
+        <br>
+
+        <button commandfor="dialogo-contacto" command="show-modal">Ver datos del local</button>
+
+        <dialog id="dialogo-contacto">
+            <p><strong>La Manada Petshop</strong></p>
+            <p>Dirección ficticia: Mendoza, Argentina.</p>
+            <p>WhatsApp ficticio: 261 000 0000</p>
+            <button commandfor="dialogo-contacto" command="close">Cerrar</button>
+        </dialog>
+    </section>
+</main>
+
+<footer>
+    <p>Proyecto académico - Práctica Profesionalizante I - 2026</p>
+</footer>
+
+</body>
+</html>
